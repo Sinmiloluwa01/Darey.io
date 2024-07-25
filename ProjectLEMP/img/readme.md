@@ -168,7 +168,15 @@ To try to open my website through my web browser, using the my public IP, run th
 
 http://<Public-IP-Address>:80
 
-
-
 ![LEMP](./14_LEMP.jpg)
+
+![LEMP](./18_LEMP.jpg)
+![LEMP](./19_LEMP.jpg)
+![LEMP](./20_LEMP.jpg)
+![LEMP](./21_LEMP.png)
+![LEMP](./22_LEMP.png)
+
+
+
+
 
