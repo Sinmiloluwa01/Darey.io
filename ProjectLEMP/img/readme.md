@@ -1,2 +1,2 @@
 ## WEB STACK PROJECT IMPLEMENTATION (LEMP STACK)
-![1_LEMP.jpg!](../img/1.LEMP.jpg)
+![LEMP](./1_LEMP.png)
