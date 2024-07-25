@@ -169,6 +169,7 @@ To try to open my website through my web browser, using the my public IP, run th
 http://<Public-IP-Address>:80
 
 ![LEMP](./14_LEMP.jpg)
+
 Testing PHP with Nginx
 Inside the ProjectLEMP folder, create a LEMP file with the name info.php.
 
