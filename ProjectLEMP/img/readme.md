@@ -186,7 +186,8 @@ phpinfo();
 Now, we can access this page in the web browser by visiting the domain name or public IP address we had setup in the Nginx configuration file.
 
 http://`server_domain_or_IP`/info.php
-![LEMP](./22_LEMP.jpg)
+
+![LEMP](./22_LEMP.png)
 
 Retrieving Data from SQL Database with PHP
 We will be creating a sample database called example_database and a username called example_user. We will create this user with the mysql_native_password authentication method in order to be able to connect to the MySQL database from PHP. Also, at this time, the native MySQL PHP library mysqlnd doesn't support calling_sha2_authentication, the default authentication method for MySQL8.
@@ -205,6 +206,7 @@ Show the list of MySQL Databases
 SHOW DATABASES;
 
 ![LEMP](./18_LEMP.jpg)
+
 Now, I will create a PHP script that will connect to MySQL and query for the content. Create a new PHP file called todo_list.php from the custom root directory using the below command
 
 nano /var/www/projectLEMP/todo_list.php
