@@ -169,12 +169,70 @@ To try to open my website through my web browser, using the my public IP, run th
 http://<Public-IP-Address>:80
 
 ![LEMP](./14_LEMP.jpg)
+Testing PHP with Nginx
+Inside the ProjectLEMP folder, create a LEMP file with the name info.php.
+
+touch info.php
+
+Create a file editor using the below command
+
+vi /var/www/projectLEMP/info.php
+
+Once the eidtor opens, paste the below command and save.
+
+<?php
+phpinfo();
+
+Now, we can access this page in the web browser by visiting the domain name or public IP address we had setup in the Nginx configuration file.
+
+http://`server_domain_or_IP`/info.php
+![LEMP](./22_LEMP.jpg)
+
+Retrieving Data from SQL Database with PHP
+We will be creating a sample database called example_database and a username called example_user. We will create this user with the mysql_native_password authentication method in order to be able to connect to the MySQL database from PHP. Also, at this time, the native MySQL PHP library mysqlnd doesn't support calling_sha2_authentication, the default authentication method for MySQL8.
+Connect to MySQL using the below command, provide your MySQL password to gain entrance to the database
+sudo mysql -p
+
+Create a new Database by running the below command
+CREATE DATABASE example_database;
+
+![LEMP](./19_LEMP.jpg)
+
+Create a new user and grant him full priviledges on the database you have just created. create a new user with the name example_user, using mysql_native_password as default authentication method. We're defining the user's password as PassWord.1 but will be replacing the password with a more secured password.
+CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+Show the list of MySQL Databases
+
+SHOW DATABASES;
 
 ![LEMP](./18_LEMP.jpg)
-![LEMP](./19_LEMP.jpg)
-![LEMP](./20_LEMP.jpg)
+Now, I will create a PHP script that will connect to MySQL and query for the content. Create a new PHP file called todo_list.php from the custom root directory using the below command
+
+nano /var/www/projectLEMP/todo_list.php
+
+<Images/Create a new PHP file called todo_list.php>
+
+Copy the below content into the nano file editor. Kindly note that the below PHP script connects to the MySQL database and queries for the content of the todo_list table; displays the result in a list.
+
+<?php
+$user = "example_user";
+$password = "PassWord.1";
+$database = "example_database";
+$table = "todo_list";
+
+try {
+  $db = new PDO("mysql:host=localhost;dbname=$database", $user, $password);
+  echo "<h2>TODO</h2><ol>";
+  foreach($db->query("SELECT content FROM $table") as $row) {
+    echo "<li>" . $row['content'] . "</li>";
+  }
+  echo "</ol>";
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
+}
+
 ![LEMP](./21_LEMP.png)
-![LEMP](./22_LEMP.png)
+
 
 
 
