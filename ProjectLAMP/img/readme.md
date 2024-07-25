@@ -24,4 +24,8 @@ Create a folder called projectlamp
 sudo mkdir /var/www/projectlamp
 
 ![6](./Lamp_6.png)
+
 ![7](./Lamp_7.png)
+
+![8](./Lamp_8.png)
+
