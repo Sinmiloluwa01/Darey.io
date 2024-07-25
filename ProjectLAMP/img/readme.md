@@ -10,6 +10,9 @@ sudo systemctl status apache2
 To test how Apache server responds to HTTP request from the internet
 
 ![4](./Lamp_4.png)
+
+![1](./mysql_1.png)
+
 ![5](./Lamp_5.png)
 ![6](./Lamp_6.png)
 ![7](./Lamp_7.png)
