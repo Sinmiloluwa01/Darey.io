@@ -17,7 +17,7 @@ To Login to Mysql console after installing mysql
 
 Installing php
 
-![5](./Lamp_5.png)
+![5](./Lamp_5.jpg)
 
 Create a folder called projectlamp
 
