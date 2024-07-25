@@ -1,7 +1,11 @@
 ## LAMPSTACK IMPLEMENTATION PROJECT
 connected to ec2 instance using Terminal 
 ![lamp](./1_lamp.png)
+Installing Apache and Updating the Firewall
 ![2](./Lamp_2.png)
+To verify apache2 is running as a service in the OS
+
+sudo systemctl status apache2
 ![3](./Lamp_3.png)
 ![4](./Lamp_4.png)
 ![5](./Lamp_5.png)
