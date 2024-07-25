@@ -18,9 +18,6 @@ To verify that nginx was installed properly
 To access Nginx server via local machine
 Run curl http://localhost:80
 
-or curl http://127.0.0.1:80
-
-
 ![LEMP](./5_LEMP.jpg)
 
 To Access Nginx via the web browser using the public IP Address.
