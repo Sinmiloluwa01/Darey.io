@@ -17,7 +17,7 @@ To Login to Mysql console after installing mysql
 
 Installing php
 
-![5](./Lamp_5.jpg)
+![5](./Lamp_5.png)
 
 Create a folder called projectlamp
 
@@ -27,5 +27,5 @@ sudo mkdir /var/www/projectlamp
 
 ![7](./Lamp_7.png)
 
-![Lamp](./2_Lamp.png)
+![Lamp](./2_Lamp.jpg)
 
