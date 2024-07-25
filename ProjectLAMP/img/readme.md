@@ -11,7 +11,7 @@ To test how Apache server responds to HTTP request from the internet
 
 ![4](./Lamp_4.png)
 
-![1](./mysql_1.png)
+![2](./mysql_2.png)
 
 ![5](./Lamp_5.png)
 ![6](./Lamp_6.png)
