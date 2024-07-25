@@ -27,5 +27,5 @@ sudo mkdir /var/www/projectlamp
 
 ![7](./Lamp_7.png)
 
-![8](./Lamp_8.png)
+![Lamp](./2_Lamp.png)
 
