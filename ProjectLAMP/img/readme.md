@@ -11,7 +11,11 @@ To test how Apache server responds to HTTP request from the internet
 
 ![4](./Lamp_4.png)
 
+To Login to Mysql console after installing mysql
+
 ![2](./mysql_2.png)
+
+Installing php
 
 ![5](./Lamp_5.png)
 ![6](./Lamp_6.png)
