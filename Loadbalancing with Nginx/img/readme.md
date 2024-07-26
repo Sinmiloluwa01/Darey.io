@@ -1,33 +1,33 @@
 ## IMPLEMENTING LOADBALANCING WITH NGINX
-![1](./balnginx_1.jpg)
+![1](./balnginx_1.png)
 
-![2](./balngnx_2.jpg)
+![2](./balngx_2.png)
 
-![3](./balngnx_3.jpg)
-![4](./balngnx_4.jpg)
-![6](./balngnx_6.jpg)
-![7](./balngnx_7.jpg)
-![8](./balngnx_8.jpg)
-![9](./balngnx_9.jpg)
+![3](./balngx_3.png)
+![4](./balngx_4.png)
+![6](./balngx_6.png)
+![7](./balngx_7.png)
+![8](./balngx_8.png)
+![9](./balngx_9.png)
 
 
-![10](./balngnx_10.jpg)
+![10](./balngx_10.png)
 
-![11](./balngnx_11.jpg)
+![11](./balngx_11.png)
 
-![12](./balngnx_12.jpg)
+![12](./balngx_12.png)
 
-![13](./balngnx_13.jpg)
+![13](./balngx_13.png)
 
-![14](./balngnx_14.jpg)
+![14](./balngx_14.png)
 
-![15](./balngnx_15.jpg)
+![15](./balngx_15.png)
 
-![16](./balngnx_16.jpg)
+![16](./balngx_16.png)
 
-![17](./balngnx_17.jpg)
+![17](./balngx_17.png)
 
-![3](./balngnx_3.jpg)
+
 
 
 
