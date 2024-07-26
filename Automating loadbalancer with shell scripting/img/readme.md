@@ -1,1 +1,6 @@
-
+![1](./balngxi_1.png)
+![2](./balngxi_2.png)
+![3](./balngxi_3.png)
+![4](./balngxi_4.png)
+![5](./balngxi_5.png)
+![6](./balngxi_6.png)
