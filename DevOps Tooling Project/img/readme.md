@@ -11,7 +11,6 @@
 ![10](./projectdevops_10.png)
 ![13](./projectdevops_13.png)
 ![14](./projectdevops_14.png)
-![15](./projectdevops_15.png)
 ![16](./projectdevoos_16.png)
 ![17](./projectdevops_17.png)
 ![19](./projectdevops_19.png)
