@@ -1,7 +1,7 @@
 ## DevOps-Tooling-Website-Solution Project
 ![1](./ProjectDevOps_1.png)
 
-![2](./ProjectDevOps_2.png)
+![Devops](./publicimages_DevOps.png)
 
 ![3](./projectdevops_3.png)
 ![5](./projectdevops_5.png)
