@@ -95,6 +95,6 @@ sudo gdisk /dev/nvme3n1
 ![5](./wops_5.png)
 ![4](./wops_4.png)
 
-
-
+![35](./wops_35.png)
+![36](./wops_36.png)
 
