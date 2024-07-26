@@ -170,23 +170,7 @@ http://<Public-IP-Address>:80
 
 ![LEMP](./14_LEMP.jpg)
 
-Testing PHP with Nginx
-Inside the ProjectLEMP folder, create a LEMP file with the name info.php.
-
-touch info.php
-
-Create a file editor using the below command
-
-vi /var/www/projectLEMP/info.php
-
-Once the eidtor opens, paste the below command and save.
-
-<?php
-phpinfo();
-
-Now, we can access this page in the web browser by visiting the domain name or public IP address we had setup in the Nginx configuration file.
-
-http://`server_domain_or_IP`/info.php
+To access this page in the web browser by visiting the domain name or public IP address we had setup in the Nginx configuration file.
 
 ![LEMP](./22_LEMP.png)
 
@@ -214,25 +198,9 @@ nano /var/www/projectLEMP/todo_list.php
 
 <Images/Create a new PHP file called todo_list.php>
 
-Copy the below content into the nano file editor. Kindly note that the below PHP script connects to the MySQL database and queries for the content of the todo_list table; displays the result in a list.
+Copy the below content into the nano file editor. Kindly note that the below PHP script connects to the MySQL database and queries for the content of the todo_list table; 
 
-<?php
-$user = "example_user";
-$password = "PassWord.1";
-$database = "example_database";
-$table = "todo_list";
-
-try {
-  $db = new PDO("mysql:host=localhost;dbname=$database", $user, $password);
-  echo "<h2>TODO</h2><ol>";
-  foreach($db->query("SELECT content FROM $table") as $row) {
-    echo "<li>" . $row['content'] . "</li>";
-  }
-  echo "</ol>";
-} catch (PDOException $e) {
-    print "Error!: " . $e->getMessage() . "<br/>";
-    die();
-}
+Accessing the page in my web broswer by visiting the public IP address for my website follwoed by /todo_list.php:.
 
 ![LEMP](./21_LEMP.png)
 
