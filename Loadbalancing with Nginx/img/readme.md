@@ -19,7 +19,6 @@
 
 ![13](./balngx_13.png)
 
-![14](./balngx_14.png)
 
 ![15](./balngx_15.png)
 
