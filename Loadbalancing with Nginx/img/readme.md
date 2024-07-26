@@ -1,14 +1,21 @@
 ## IMPLEMENTING LOADBALANCING WITH NGINX
+
 ![1](./balnginx_1.png)
 
 ![2](./balngx_2.png)
 
 ![3](./balngx_3.png)
+
 ![4](./balngx_4.png)
+
 ![6](./balngx_6.png)
+
 ![7](./balngx_7.png)
+
 ![8](./balngx_8.png)
+
 ![9](./balngx_9.png)
+
 
 
 ![10](./balngx_10.png)
