@@ -1,4 +1,5 @@
 ## ANSIBLE-AUTOMATE PROJECT
+![30](./ansiblea_30.png)
 ![1](./ansiblea_1.png)
 ![2](./ansiblea_2.png)
 ![3](./ansiblea_3.png)
